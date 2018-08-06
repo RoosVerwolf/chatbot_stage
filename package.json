@@ -1,7 +1,8 @@
 {
-  "name": "stage-chatbot-test",
+  "name": "chatbot_stage",
   "version": "1.0.0",
   "description": "MovieAgent",
+  "repository": "https://github.com/RoosVerwolf/chatbot_stage.git",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

@@ -1,1 +1,1 @@
-chatbot_stage
+stage-chatbot-test

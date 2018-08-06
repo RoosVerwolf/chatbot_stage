@@ -1,0 +1,19 @@
+{
+  "name": "stage-chatbot-test",
+  "version": "1.0.0",
+  "description": "MovieAgent",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "testcommand"
+  },
+  "keywords": [
+    "Movieagent"
+  ],
+  "author": "Roos",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}

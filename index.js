@@ -27,15 +27,15 @@ server.post('/get-movie-details', (req, res) => {
             dataToSend += `${movie.Title} is a ${movie.Actors} starer ${movie.Genre} movie, released in ${movie.Year}. It was directed by ${movie.Director}`;
 
             return res.json({
-                fulfillmentText: dataToSend,
-                displayText: dataToSend,
+                fulfillmentMessages: dataToSend,
+              //  displayText: dataToSend,
                 source: 'get-movie-details'
             });
         });
     }, (error) => {
         return res.json({
             fulfillmentText: 'Something went wrong!',
-            displayText: 'Something went wrong!',
+          //  displayText: 'Something went wrong!',
             source: 'get-movie-details'
         });
     });
